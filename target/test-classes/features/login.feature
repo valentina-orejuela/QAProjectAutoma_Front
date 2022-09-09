@@ -1,11 +1,12 @@
 Feature: Login
-  As QA Automation
-  I want I want to enter Linkedin
-  To validate login functionality
+  As AQ Automation
+  I want to login
+  To validate the web response
 
-  Scenario: Login with the correct data
-    Given That Elvis join Linkedin
-    When He enters the credentials
-      | user            | password |
-      | valentina@gmail.com | 9876543  |
-    Then will enter the web already with the user
+  Scenario: Successful Login
+
+    Given enter the portal Linkedin
+    When enter the username and password
+      | user                | password   |
+      | qacuenta0@GMAIL.COM | mentorship |
+    Then will enter the web already with the user Welcome, cuenta!
