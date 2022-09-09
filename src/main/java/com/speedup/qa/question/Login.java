@@ -1,4 +1,4 @@
-package com.speedup.qa.questions;
+package com.speedup.qa.question;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

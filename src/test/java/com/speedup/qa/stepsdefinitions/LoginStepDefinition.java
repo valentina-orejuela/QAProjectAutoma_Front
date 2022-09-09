@@ -1,7 +1,7 @@
 package com.speedup.qa.stepsdefinitions;
 
 import com.speedup.qa.models.CredentialsData;
-import com.speedup.qa.questions.Login;
+import com.speedup.qa.question.Login;
 import com.speedup.qa.task.LoginUser;
 import com.speedup.qa.task.OpenBrowser;
 import cucumber.api.java.Before;
@@ -27,7 +27,7 @@ public class LoginStepDefinition {
     @Before
     public void setUpOnstage() {
         setTheStage(Cast.whereEveryoneCan(BrowseTheWeb.with(myBrowser)));
-        theActorCalled("Miguel Hugo");
+        theActorCalled("Valentina Orejuela");
     }
 
     @Given("^enter the portal Linkedin$")

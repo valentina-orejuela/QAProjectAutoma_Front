@@ -15,8 +15,11 @@ public class login {
     public static final Target USER_PASSWORD = Target
             .the("The password is entered")
             .located(By.name("session_password"));
+    public static final Target VALIDATE_LOGIN = Target
+            .the("We validate user")
+            .located(By.xpath("(//*[@class='t-16 t-black t-bold'])[1]"));
+    public static final Target LOGIN = Target
+            .the("The password is entered")
+            .located(By.className("btn__primary--large"));
 
-    public static final Target  VALIDATE_LOGIN = Target
-            .the("Se ingresa la contrasena")
-            .located(By.id("ember394"));
 }
